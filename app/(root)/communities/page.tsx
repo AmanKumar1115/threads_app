@@ -7,7 +7,8 @@ import { redirect } from "next/navigation";
 
 import { fetchUser } from "@/lib/actions/user.actions";
 import { fetchCommunities } from "@/lib/actions/community.actions";
-import CommunityCard from "@/components/cards/communityCard";
+import CommunityCard from "@/components/cards/CommunityCard";
+
 
 async function Page({
   searchParams,
