@@ -1,5 +1,5 @@
 "use client"
-//import React from "react"; // Make sure to import React
+
 import Image from "next/image";
 import { Button } from "../ui/button";
 import { useRouter } from "next/navigation";
